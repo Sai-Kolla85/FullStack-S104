@@ -33,10 +33,8 @@ public class AppController {
 		return s.updateData(p);
 	}
 
-	/* 
-	@DeleteMapping("/delete/{id}")
-	public String delete(@PathVariable int id) {
-		return s.deleteData(id);
-	}
-	*/
+    @GetMapping("/DIS")
+    public String DIS() {
+        return "OM SAI RAM";
+    }
 }
